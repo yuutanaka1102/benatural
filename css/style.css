@@ -191,7 +191,7 @@ footer .pr {display: block;}
 }
 /*記事設定*/
 #new dd {
-	padding-top: 1.5em;
+	padding-top: 1em;
 	letter-spacing: 0.1em;
 	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
 }
@@ -434,7 +434,7 @@ body.s-n #sub,body.s-n #footermenu,.m-n {display: none;}
 /*全体の設定
 ---------------------------------------------------------------------------*/
 body {
-	font-size: 13px;	/*文字サイズ*/
+	font-size: 14px;	/*文字サイズ*/
 	background: #fff;	/*背景色*/
 }
 
@@ -456,12 +456,12 @@ body {
 ---------------------------------------------------------------------------*/
 /*h2タグ*/
 #main h2 {
-	font-size: 15px;	/*文字サイズ*/
+	font-size: 16px;	/*文字サイズ*/
 	padding-left: 40px;	/*左側の余白の上書き*/
 }
 /*h3タグ*/
 #main h3 {
-	font-size: 14px;	/*文字サイズ*/
+	font-size: 15px;	/*文字サイズ*/
 }
 
 /*トップページ内「更新情報・お知らせ」ブロック
