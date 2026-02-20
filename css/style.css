@@ -780,4 +780,13 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
   height: auto;
   display: block;
   }
+	
+　　.name {
+		font-size: 26px;
+		margin-bottom: 5px;
+　}
+
+　　.qualification {
+		font-size: 20px;
+　}
 }
