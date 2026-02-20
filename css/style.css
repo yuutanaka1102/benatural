@@ -188,6 +188,7 @@ footer .pr {display: block;}
 #new dl {
 	padding: 0px 20px;		/*上下、左右へのブロック内の余白*/
 	margin-bottom: 20px;	/*ブロックの下(外側)に空ける余白*/
+	margin-top: -10px;
 }
 /*記事設定*/
 #new dd {
