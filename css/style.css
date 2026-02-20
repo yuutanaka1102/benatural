@@ -192,7 +192,7 @@ footer .pr {display: block;}
 }
 /*記事設定*/
 #new dd {
-	padding-top: 1.2em;
+	padding-top: 2.2em;
 	letter-spacing: 0.1em;
 	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
 }
