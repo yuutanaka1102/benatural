@@ -83,7 +83,7 @@ header #logo {
 /*h2タグ*/
 #main h2 {
 	clear: both;
-	margin-bottom: 20px;	/*見出しの下(外側)に空けるスペース*/
+	margin-bottom: 18px;	/*見出しの下(外側)に空けるスペース*/
 	color: #fff;			/*文字色*/
 	background: #709144 url(../images/arrow1.png) no-repeat left center;	/*背景色と背景画像（古いブラウザ用）*/
 	background: url(../images/arrow1.png) no-repeat left center, linear-gradient(#9fbd77, #85a65a 49%, #709144 50%);	/*背景画像の読み込み、グラデーション*/
@@ -191,7 +191,7 @@ footer .pr {display: block;}
 }
 /*記事設定*/
 #new dd {
-	padding-top: 0.2em;
+	padding-top: 1em;
 	letter-spacing: 0.1em;
 	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
 }
