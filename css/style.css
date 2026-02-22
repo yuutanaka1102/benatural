@@ -61,7 +61,7 @@ header {
 header #logo {
 	position: absolute;z-index: 1;
 	left: 6.7%;	/*headerの左から5%の場所に配置*/
-	top: 22%;	/*headerの上から18%の場所に配置*/
+	top: 20%;	/*headerの上から18%の場所に配置*/
 	width: 24%;	/*画像の幅*/
 	/*background: #000;	/*背景色（古いブラウザ用）*/
 	/*background: rgba(0,0,0,0.5);	/*画像の背景色。0,0,0は黒の事で0.5は50%色がついた状態。*/
