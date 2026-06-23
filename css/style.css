@@ -720,73 +720,155 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	margin-left: auto;
 }
 
-
-
-
-.profile-header {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  max-width: 850px;
-  margin: 0 10px 40px;
+.iba h5 {
+	font-size: 27px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-.profile-image img {
-  width: 250px;
-  max-width: 100%;
-  height: auto;
-  display: block;
+
+.tabs{
+  display:flex;
+	justify-content: center;
+  flex-wrap:wrap;
+  gap:0;
 }
 
-.aaa{
-	width: 600px;
+.tabs input{
+  display:none;
 }
 
-.profile-meta {
-  text-align: center;
+.tabs label{
+  width:250px;
+  background:#dce8da;
+  cursor:pointer;
+  text-align:center;
+  padding:20px;
+	margin: 0 20px 0 20px;
 }
 
-.name {
-  font-size: 30px;
-  margin-bottom: 6px;
+
+.content{
+  display:none;
+  width:100%;
+  margin-top:30px;
 }
 
-.qualification {
-  font-size: 24px;
-  color: #666;
+.profile-profile h4 {
+	font-size: 24px;
+	margin-left: 10px;
 }
+
+
+.profile-profile p {
+	font-size: 23px;
+}
+
+
+#tab1:checked ~ .contents #content1{
+  display:block;
+}
+
+#tab2:checked ~ .contents #content2{
+  display:block;
+}
+
+#tab1:checked + label,
+#tab2:checked + label{
+  background:#bacdbb;
+}
+
 
 /* 本文 */
 .profile-text {
-  max-width: 850px;
+  max-width: 810px;
 	margin: auto;
   text-align: left;
   line-height: 1.9;
+	font-size: 20.6px;
 }
 
 @media screen and (max-width: 768px) {
-  .profile-header {
-    flex-direction: column;
-    text-align: center;
-  }
+.iba h5 {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 8px;
+}
 
-  .profile-meta {
-    text-align: center;
-  }
 
-	.profile-image img {
-  width: 180px;
+.tabs{
+  display:flex;
+	justify-content: center;
+  flex-wrap:wrap;
+  gap:0;
+}
+
+.tabs input{
+  display:none;
+}
+
+.tabs label{
+  width:120px;
+  background:#dce8da;
+  cursor:pointer;
+  text-align:center;
+	margin: 0 5px 0 5px;
+}
+
+.profile {
+	width: 120px;
+	margin: auto;
+}
+
+.content{
+  display:none;
+  width:100%;
+  margin-top: 20px;
+}
+
+#tab1:checked ~ .contents #content1{
+  display:block;
+}
+
+#tab2:checked ~ .contents #content2{
+  display:block;
+}
+
+#tab1:checked + label,
+#tab2:checked + label{
+  background:#bacdbb;
+}
+
+
+/* 本文 */
+.profile-profile h4 {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.profile-profile p {
+  font-size: 13.5px;	
+}
+
+.profile-text {
+  max-width: 400px;
+	margin: auto;
+  text-align: left;
+	font-size: 13px;
+  line-height: 1.9;
+}
+
+.profile-image img {
+  width: 170px;
   max-width: 100%;
   height: auto;
   display: block;
-  }
-	
-	.name {
-		font-size: 26px;
-		margin-bottom: 5px;
-	}
-
-	.qualification {
-		font-size: 20px;
-	}
 }
+
+.profile-text section {
+	max-width: 380px;
+	background-color: #06c755;
+}
+
+}
+
