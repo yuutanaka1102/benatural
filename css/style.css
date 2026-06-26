@@ -808,7 +808,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .tabs label{
-  width:120px;
+  width:100px;
   background:#dce8da;
   cursor:pointer;
   text-align:center;
@@ -816,7 +816,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .profile {
-	width: 120px;
+	width: 100px;
 	margin: auto;
 }
 
