@@ -560,6 +560,10 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
   transition: opacity 0.3s;
 }
 
+.sns-btn {
+	text-align: center;
+}
+
 .sns-btn:hover {
   opacity: 0.8;
 }
@@ -808,7 +812,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .tabs label{
-  width:100px;
+  width:120px;
   background:#dce8da;
   cursor:pointer;
   text-align:center;
@@ -816,7 +820,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .profile {
-	width: 100px;
+	width: 120px;
 	margin: auto;
 }
 
@@ -851,7 +855,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .profile-text {
-  max-width: 350px;
+  max-width: 400px;
 	margin: auto;
   text-align: left;
 	font-size: 13px;
