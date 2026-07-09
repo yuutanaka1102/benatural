@@ -814,7 +814,12 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .profile {
-	width: 120px;
+	width: 100px;
+	margin: auto;
+}
+
+.profile-image {
+	width: 100px;
 	margin: auto;
 }
 
