@@ -743,12 +743,12 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .tabs label{
-  width:250px;
+  width:150px;
   background:#dce8da;
   cursor:pointer;
   text-align:center;
   padding:20px;
-	margin: 0 20px 0 20px;
+	margin: 0 15px 0 15px;
 }
 
 
