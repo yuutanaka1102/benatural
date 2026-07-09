@@ -652,6 +652,8 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 
+
+
 /* 矢印を消す（Chrome / Safari） */
 .faq-card summary::-webkit-details-marker {
   display: none;
@@ -760,9 +762,11 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	margin-left: 10px;
 }
 
+
 .profile-profile p {
 	font-size: 23px;
 }
+
 
 #tab1:checked ~ .contents #content1{
   display:block;
@@ -777,6 +781,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
   background:#bacdbb;
 }
 
+
 /* 本文 */
 .profile-text {
   max-width: 810px;
@@ -788,7 +793,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 
 @media screen and (max-width: 768px) {
 .iba h5 {
-	font-size: 16px;
+	font-size: 17px;
 	text-align: center;
 	margin-bottom: 8px;
 }
@@ -798,15 +803,15 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .tabs label{
-  width:90px;
+  width:100px;
   background:#dce8da;
   cursor:pointer;
   text-align:center;
-  margin: 0 5px 0 5px;
+	margin: 0 5px 0 5px;
 }
 
 .profile {
-	width: 90px;
+	width: 100px;
 	margin: auto;
 }
 
