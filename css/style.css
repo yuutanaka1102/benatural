@@ -743,14 +743,13 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .tabs label{
-  width:150px;
+  width:250px;
   background:#dce8da;
   cursor:pointer;
   text-align:center;
   padding:20px;
-	margin: 0 15px 0 15px;
+  margin: 0 15px 0 15px;
 }
-
 
 .content{
   display:none;
@@ -763,11 +762,9 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	margin-left: 10px;
 }
 
-
 .profile-profile p {
 	font-size: 23px;
 }
-
 
 #tab1:checked ~ .contents #content1{
   display:block;
@@ -781,7 +778,6 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 #tab2:checked + label{
   background:#bacdbb;
 }
-
 
 /* 本文 */
 .profile-text {
