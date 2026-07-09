@@ -800,12 +800,6 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 
-.tabs{
-  display:flex;
-  justify-content: center;
-  flex-wrap:wrap;
-  gap:0;
-}
 
 .tabs input{
   display:none;
