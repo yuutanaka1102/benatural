@@ -652,8 +652,6 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 
-
-
 /* 矢印を消す（Chrome / Safari） */
 .faq-card summary::-webkit-details-marker {
   display: none;
@@ -743,12 +741,12 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .tabs label{
-  width:250px;
-  background:#dce8da;
+  width: 250px;
   cursor:pointer;
+  background:#dce8da;
   text-align:center;
-  padding:20px;
-  margin: 0 15px 0 15px;
+  padding: 20px;
+	margin: 0 20px 0 20px;
 }
 
 .content{
