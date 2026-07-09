@@ -799,14 +799,12 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	margin-bottom: 8px;
 }
 
-
-
 .tabs input{
   display:none;
 }
 
 .tabs label{
-  width:120px;
+  width:100px;
   background:#dce8da;
   cursor:pointer;
   text-align:center;
