@@ -847,11 +847,11 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .profile-profile p {
-  font-size: 13.5px;	
+  font-size: 14px;	
 }
 
 .profile-text {
-  max-width: 350px;
+  max-width: 340px;
 	margin: auto;
 	font-size: 13px;
   line-height: 1.9;
