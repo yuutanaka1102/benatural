@@ -100,7 +100,7 @@ header #logo {
 	padding: 5px 20px;		/*上下、左右への見出し内の余白*/
 	border: 1px solid #ccc;	/*枠線の幅、線種、色*/
 	margin-left: 4px;
-	margin-right: 6px;
+	margin-right: 10px;
 }
 /*段落(p)タグ*/
 #main p {
