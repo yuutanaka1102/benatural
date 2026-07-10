@@ -857,6 +857,10 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
   line-height: 1.9;
 }
 
+.profile-text h3 {
+	max-width: 330px;
+}
+
 .profile-image img {
   width: 170px;
   max-width: 100%;
