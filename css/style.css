@@ -823,7 +823,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 .content{
   display:none;
   width: 100%;
-  margin: 20px 5px 0 5px;
+  margin: 10px 7px 0 5px;
 }
 
 #tab1:checked ~ .contents #content1{
