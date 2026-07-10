@@ -851,7 +851,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 
 .profile-text {
-  max-width: 360px;
+  max-width: 350px;
 	margin: auto;
 	font-size: 13px;
   line-height: 1.9;
