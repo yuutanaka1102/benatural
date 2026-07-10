@@ -822,8 +822,9 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 
 .content{
   display:none;
-  width:90%;
+  width:100%;
   margin-top: 20px;
+  margin-left: 10px;
 }
 
 #tab1:checked ~ .contents #content1{
