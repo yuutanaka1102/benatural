@@ -886,8 +886,18 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	width: 450px;
 }
 
-@media screen and (max-width: 500px) {
 	.syouzyou {
+	align-items: center;
+}
+
+  .syouzyou img {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+@media screen and (min-width: 600px) {
 	.syouzyou {
 	display: flex;
 	margin-left: -70px;
@@ -897,14 +907,6 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	width: 450px;
 }
 
-@media screen and (max-width: 500px) {
-	.syouzyou {
-	display: block;
-}
-
-  .syouzyou img {
-	width: 300px;
-}
 }
 
   
