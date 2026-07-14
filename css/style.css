@@ -878,19 +878,10 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 
 
 .syouzyou {
-	display: flex;
-	margin-left: -70px;
-}
-
-.syouzyou img{
-	width: 450px;
-}
-
-	.syouzyou {
 	align-items: center;
 }
 
-  .syouzyou img {
+.syouzyou img {
 	width: 300px;
 	display: block;
 	margin: 0 auto;
@@ -906,7 +897,6 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 .syouzyou img{
 	width: 450px;
 }
-
 }
 
   
