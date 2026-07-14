@@ -888,12 +888,25 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 
 @media screen and (max-width: 500px) {
 	.syouzyou {
+	.syouzyou {
 	display: flex;
+	margin-left: -70px;
+}
+
+.syouzyou img{
+	width: 450px;
+}
+
+@media screen and (max-width: 500px) {
+	.syouzyou {
+	display: block;
 	margin-left: -20px;
 }
 
   .syouzyou img {
-	width: 200px;
+	width: 300px;
 }
 }
+
+  
 
